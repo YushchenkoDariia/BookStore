@@ -49,7 +49,7 @@
               <div class="text-wrapper-7">400грн</div>
               <div class="text-wrapper-8">Триста поезій</div>
               <div class="frame">
-                <button class="button"><div class="text-wrapper-9">В кошик</div></button>
+                <button class="button" onclick="alert('Книжка додана до кошика!')"><div class="text-wrapper-9">В кошик</div></button>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
                 Історичний роман у віршах, своєрідна енциклопедія духовного життя нашого народу в XVII ст.
               </p>
               <div class="frame">
-                <div class="div-wrapper"><div class="text-wrapper-9">В кошик</div></div>
+                <div class="div-wrapper" onclick="alert('Книжка додана до кошика!')"><div class="text-wrapper-9">В кошик</div></div>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@
                 східної цивілізацій
               </p>
               <div class="frame">
-                <button class="button"><div class="text-wrapper-9">В кошик</div></button>
+                <button class="button" onclick="alert('Книжка додана до кошика!')"><div class="text-wrapper-9">В кошик</div></button>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@
               </p>
               <div class="text-wrapper-10">Бузиновий цар</div>
               <div class="frame">
-                <button class="button"><div class="text-wrapper-9">В кошик</div></button>
+                <button class="button" onclick="alert('Книжка додана до кошика!')"><div class="text-wrapper-9">В кошик</div></button>
               </div>
             </div>
           </div>
@@ -121,23 +121,23 @@
             <img class="image-2" src="photos/paper1.png" />
             <img class="image-3" src="photos/paper 2.png" />
             <img class="image-4" src="photos/paper 3.png" />
-            <div class="button-add"><div class="text-wrapper-14">Додати</div></div>
-            <div class="button-add-2"><div class="text-wrapper-14">Додати</div></div>
-            <div class="button-add-3"><div class="text-wrapper-14">Додати</div></div>
+            <div class="button-add" onclick="alert('Подарунковий папір додано!')"><div class="text-wrapper-14">Додати</div></div>
+            <div class="button-add-2" onclick="alert('Подарунковий папір додано!')"><div class="text-wrapper-14">Додати</div></div>
+            <div class="button-add-3" onclick="alert('Подарунковий папір додано!')"><div class="text-wrapper-14">Додати</div></div>
             <div class="group-2">
               <div class="text-wrapper-15">Коробка (30грн):</div>
               <img class="image-5" src="photos/gift box.png" />
-              <div class="button-add-4"><div class="text-wrapper-14">Додати</div></div>
+              <div class="button-add-4"onclick="alert('Подарункову коробку додано!')"><div class="text-wrapper-14">Додати</div></div>
             </div>
           </div>
           <div class="view"></div>
-          <div class="button-add-5"><div class="text-wrapper-14">Додати до замовлення</div></div>
+          <div class="button-add-5"onclick="alert('Листівку додано!')"><div class="text-wrapper-14">Додати до замовлення</div></div>
         </div>
-        <div id="contacts" class="contacts">
+        <div id="contacts"class="contacts">
           <div class="overlap-5">
             <footer class="footer">
               <div class="view-wrapper">
-                <div class="view-2"><div class="text-wrapper-16">Підписатись</div></div>
+                <div class="view-2" onclick="alert('Ви підписалися на розсилку!')"><div class="text-wrapper-16">Підписатись</div></div>
               </div>
               <div class="text-wrapper-17">Контакти</div>
               <div class="text-wrapper-18">Інформація</div>
@@ -151,7 +151,8 @@
               <img class="icon-book-2" src="photos/🦆 icon _book_.png" />
               <div class="instagram"></div>
             </footer>
-            <div class="text-wrapper-25">Введіть свій e-mail</div>
+            <input type="email" placeholder="Введіть свій e-mail" class="text-wrapper-25" />
+
           </div>
           <div class="text-wrapper-26">Відгуки</div>
           <div class="text-wrapper-27">Написати відгук</div>
@@ -168,8 +169,11 @@
             книги ще й так дбайливо пакує їх. Попросив написати листівку і запакувати “Триста поезій” в папір, зробили
             все дуже гарно, рекомендую!”
           </p>
-          <div class="view-3"><div class="text-wrapper-16">Відправити</div></div>
-          <div class="overlap-6"><div class="text-wrapper-30">Напишіть свій відгук</div></div>
+          <div class="view-3" onclick="alert('Коментар додано!')"><div class="text-wrapper-16">Відправити</div></div>
+          <div class="overlap-6">
+            <textarea class="text-wrapper-30" placeholder="Напишіть свій відгук"></textarea>
+          </div>
+          
         </div>
         <div id="about" class="about-us">
           <div class="overlap-7">
